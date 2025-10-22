@@ -1,3 +1,4 @@
+# src/utils/graph_builder.py
 import argparse
 from pathlib import Path
 from tqdm import tqdm
@@ -88,7 +89,7 @@ def build_per_flow_graph_optimized(client_data: pd.DataFrame) -> Data:
 
 def build_per_flow_graph_memory_efficient(client_data: pd.DataFrame) -> Data:
     """Build a per-flow graph with memory efficiency in mind"""
-    # First, let's create a sparse representation of the graph
+    # Create a sparse representation of the graph
     from scipy.sparse import lil_matrix
     import numpy as np
     
@@ -140,7 +141,7 @@ def build_per_flow_graph_memory_efficient(client_data: pd.DataFrame) -> Data:
 def build_per_flow_graph_chunked(client_data: pd.DataFrame, chunk_size: int = 10000) -> Data:
     """Build per-flow graph by processing in chunks to save memory"""
     # This is a more complex implementation that processes the data in chunks
-    # We'll create the graph incrementally
+    # Graph is created incrementally
     
     G = nx.Graph()
     

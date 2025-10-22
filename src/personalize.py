@@ -1,4 +1,4 @@
-# personalize.py - FIXED VERSION with proper state dict handling
+# personalize.py
 import torch
 from pathlib import Path
 from src.models import DeepSVDDGCN, GAEDeepSVDD, GCN, GAE

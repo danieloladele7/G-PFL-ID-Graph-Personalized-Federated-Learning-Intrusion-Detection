@@ -326,7 +326,6 @@ def preprocess_graph_data(graph, client_id=None):
     
     return graph
 
-# src/utils/data_processing.py (ADD FEATURE NORMALIZATION)
 def normalize_graph_features(graph, expected_features=128, normalize=True):
     """Ensure graph has consistent feature dimensions with optional normalization"""
     if hasattr(graph, 'x') and graph.x is not None:

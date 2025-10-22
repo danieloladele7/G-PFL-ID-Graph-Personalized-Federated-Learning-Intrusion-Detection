@@ -1,4 +1,4 @@
-# src/models/gae.py (ADD GAEWithPersonalizedHead)
+# src/models/gae.py
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -56,7 +56,7 @@ class GAEDeepSVDD(GAE):
         reconstructed = self.decode(node_embeddings)
         return reconstructed, node_embeddings
 
-class GAEWithPersonalizedHead(GAE):
+class GAEWithPersonalizedHead(GAE): # tested but not the best result
     """GAE with personalized heads for each client"""
     
     def __init__(self, in_channels, hidden_channels=64, num_layers=2, 

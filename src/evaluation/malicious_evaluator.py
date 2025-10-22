@@ -1,4 +1,4 @@
-# malicious_evaluator.py (fixed version)
+# malicious_evaluator.py
 import os, argparse, json, datetime
 import torch
 import pandas as pd
@@ -144,7 +144,7 @@ class MaliciousEvaluator:
         df = pd.read_csv(csv_path)
         features_list = []
         
-        # Extract features (adjust based on your CSV structure)
+        # Extract features (adjust based on CSV structure)
         # Exclude non-feature columns
         exclude_cols = ['label', 'malicious', 'id.orig_h', 'id.resp_h', 'target', 'class']
         feature_cols = [col for col in df.columns if col not in exclude_cols]

@@ -1,6 +1,6 @@
 # src/training/__init__.py
 """
-Training components for the FL-GCN-IoT-IDS project.
+Training components for the G-PFL-IDS project.
 """
 
 from .losses import DeepSVDDLoss, GAEReconstructionLoss, HybridLoss, FedProxRegularizer, CompactnessLoss 

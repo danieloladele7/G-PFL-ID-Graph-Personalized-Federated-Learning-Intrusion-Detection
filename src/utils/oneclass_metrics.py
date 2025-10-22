@@ -1,4 +1,4 @@
-# src/utils/oneclass_metrics.py (FIXED - Proper Evaluation)
+# src/utils/oneclass_metrics.py
 import torch
 import numpy as np
 from sklearn.metrics import (
@@ -61,7 +61,7 @@ class OneClassMetrics:
         metrics = {}
         
         try:
-            # Check if we have valid data
+            # Check if there are valid data
             if len(scores) == 0 or len(labels) == 0:
                 print("Warning: No scores or labels for metric computation")
                 return OneClassMetrics._get_default_metrics()

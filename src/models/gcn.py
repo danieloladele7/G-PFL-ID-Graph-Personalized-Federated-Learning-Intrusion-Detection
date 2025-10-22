@@ -1,4 +1,4 @@
-# src/models/gcn.py (ADD Pure GCN)
+# src/models/gcn.py
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -28,13 +28,13 @@ class DeepSVDDGCN(BaseGCN):
     def __init__(self, in_channels, hidden_channels=64, num_layers=2, 
                  dropout=0.2, embed_dim=64, num_classes=2):
         super().__init__(in_channels, hidden_channels, num_layers, dropout, embed_dim, num_classes)
-        # DeepSVDD doesn't need a classifier - uses distance from center
+        # NOTE: DeepSVDD doesn't need a classifier - uses distance from center
         
     def forward(self, x, edge_index, batch=None):
         node_embeddings, graph_embedding = self.encode(x, edge_index, batch)
         return node_embeddings, node_embeddings
 
-class GCNWithPersonalizedHead(BaseGCN):
+class GCNWithPersonalizedHead(BaseGCN): # Not used
     """GCN with personalized heads for each client"""
     
     def __init__(self, in_channels, hidden_channels=64, num_layers=2, 

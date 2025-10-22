@@ -1,4 +1,4 @@
-# src/analyze_non_iid.py (updated)
+# src/analyze_non_iid.py
 import argparse
 from non_iid_metrics import NonIIDMetrics
 from src.utils import load_client_data

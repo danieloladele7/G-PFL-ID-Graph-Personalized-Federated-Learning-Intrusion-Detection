@@ -59,10 +59,8 @@ fl-gcn-ids/
 │   │   ├── __init__.py 
 │   │   ├── data_preprocessing.py 
 │   │   ├── graph_builder.py 
-│   │   ├── model_utils.py 
 │   │   ├── oneclass_metrics.py 
-│   │   ├── saving_utils.py 
-│   │   └── training_utils.py 
+│   │   └── utils.py 
 │   ├── __init__.py
 │   ├── config.py
 │   ├── client_app.py

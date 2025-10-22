@@ -110,7 +110,6 @@ class NonIIDMetrics:
         
         return results
     
-    # src/non_iid_metrics.py
     def analyze_feature_distributions(self, client_data: Dict[str, Dict]) -> Dict:
         """Analyze feature distributions for one-class scenario"""
         results = {

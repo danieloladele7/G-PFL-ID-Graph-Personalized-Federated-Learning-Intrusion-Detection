@@ -1,4 +1,4 @@
-# src/server_app.py (UPDATED - Fix history updating)
+# src/server_app.py
 """fl-gcn-ids: A Flower / PyTorch app for One-Class Learning"""
 
 import os
