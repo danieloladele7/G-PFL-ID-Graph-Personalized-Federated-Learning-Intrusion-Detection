@@ -151,7 +151,7 @@ venv.bak/
 *logs/
 *outputs/
 *results/
-*personalized_model/
+*personalized_models/
 *evaluate/
 
 # mypy
