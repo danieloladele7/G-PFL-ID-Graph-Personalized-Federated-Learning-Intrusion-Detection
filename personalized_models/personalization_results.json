@@ -1,0 +1,52 @@
+{
+  "0": {
+    "model_path": "personalized_models/personalized_model_0.pt",
+    "center_path": "personalized_models/client_center_0.pt",
+    "status": "success"
+  },
+  "1": {
+    "model_path": "personalized_models/personalized_model_1.pt",
+    "center_path": "personalized_models/client_center_1.pt",
+    "status": "success"
+  },
+  "2": {
+    "model_path": "personalized_models/personalized_model_2.pt",
+    "center_path": "personalized_models/client_center_2.pt",
+    "status": "success"
+  },
+  "3": {
+    "model_path": "personalized_models/personalized_model_3.pt",
+    "center_path": "personalized_models/client_center_3.pt",
+    "status": "success"
+  },
+  "4": {
+    "model_path": "personalized_models/personalized_model_4.pt",
+    "center_path": "personalized_models/client_center_4.pt",
+    "status": "success"
+  },
+  "5": {
+    "model_path": "personalized_models/personalized_model_5.pt",
+    "center_path": "personalized_models/client_center_5.pt",
+    "status": "success"
+  },
+  "6": {
+    "model_path": "personalized_models/personalized_model_6.pt",
+    "center_path": "personalized_models/client_center_6.pt",
+    "status": "success"
+  },
+  "7": {
+    "model_path": "personalized_models/personalized_model_7.pt",
+    "center_path": "personalized_models/client_center_7.pt",
+    "status": "success"
+  },
+  "8": {
+    "model_path": "personalized_models/personalized_model_8.pt",
+    "center_path": "personalized_models/client_center_8.pt",
+    "status": "success"
+  },
+  "9": {
+    "model_path": "personalized_models/personalized_model_9.pt",
+    "center_path": "personalized_models/client_center_9.pt",
+    "status": "success"
+  }
+}
